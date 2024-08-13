@@ -1,0 +1,846 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ulone{
+    list-style: none;
+    display: flex;
+    align-self: center;
+    gap: 30px;
+    padding-right: 20px;
+}
+.ulone li a{
+    text-decoration: none;
+}
+.service{
+    position: relative;
+   
+    
+}
+.service1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+
+.listofservice{
+    height: 500px;
+    width: 90vw;
+     background-color: yellow;
+     position: absolute;
+    right: -300px;
+    top: 60px;
+    border-bottom: 1px solid black;
+    display: none;
+    padding: 15px;
+   
+}
+ .service:hover .listofservice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.traning{
+    position: relative;
+
+}
+.traning1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   padding-left: 20px;
+
+}
+.traning12{
+     border-bottom: 1px solid black;
+     padding-bottom: 20px;
+     width: 270px;
+}
+    
+
+.listoftraning{
+    height: 700px;
+    width: 90vw;
+    background-color: yellow;
+    position: absolute;
+    left: -71vw;
+    margin-top: 40px;
+    display: none;
+    border-bottom: 1px solid black;
+    
+    
+}
+.traning:hover .listoftraning{
+    display: flex;
+}
+.top1{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(https://www.hanumanttechnology.com/images/it-banner-image.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-left: 200px;
+}
+.service12{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.branches{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listofbranches{
+    height: 90px;
+    width: 200px;
+    /* background-color: yellow; */
+    left: -70px;
+    top: 59px;
+    position: absolute;
+    display: none;
+}
+.branches:hover .listofbranches{
+    display: block;
+}
+.branches1{
+    padding-left: 30px;
+    padding-top: 10px;
+} 
+.branches1 li{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.top12{
+    height: 250px;
+    width: 50%;
+    /* background-color: yellow; */
+    padding-top: 40px;
+}
+.top123{
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.top123left{
+    height: 400px;
+    width: 40%;
+    /* background-color: red; */
+    margin-left: 120px;
+    margin-top: 90px;
+    background-image: url(https://www.hanumanttechnology.com/images/h-about.png);
+    background-position: center;
+    background-size: cover;display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+.top123lefttop{
+    height: 150px;
+    width: 190px;
+    background-color: yellow;
+    margin-left: 420px;
+    margin-top: -20px;
+    
+    
+}
+.top123lefttoptop{
+    height: 50px;
+    width: 70px;
+    /* background-color: white; */
+    color: aqua;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.top123lefttopmid{
+    height: 50px;
+    width: 190px;
+    color: white;
+    /* background-color: aqua; */
+    /* margin-left: 10px; */
+}
+
+.top123leftmid{
+    height: 150px;
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0.756);
+    margin-left: 420px;
+}
+.top123left:hover .top123leftmid{
+    background-color: yellow;
+}
+.top123leftmidtop{
+    height: 50px;
+    width: 70px;
+    /* background-color: white; */
+    color: yellow;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.top123leftbottom{
+    height: 150px;
+    width: 190px;
+    background-color: rgba(16, 2, 7, 0.742);
+    margin-left: 420px;
+    margin-bottom: -20px;
+    
+}
+.top123left:hover .top123leftbottom{
+    background-color: yellow;
+}
+.top123leftbottomtop{
+    height: 50px;
+    width: 70px;
+    background-color: rgba(8, 1, 2, 0.384);
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.top123right{
+    height: 400px;
+    width: 40%;
+    /* background-color: rgba(5, 5, 1, 0.151); */
+    margin-left: 50px;
+    margin-top:90px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mid{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows:350px 350px;
+    grid-template-columns: repeat(3,auto);
+    /* padding: 40px; */
+    gap: 20px;
+}
+.midbox1{
+    /* background-color: blue; */
+    /* width: 400px; */
+   
+}
+.midbox2{
+    background-image: url(https://www.hanumanttechnology.com/services_img/ser2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 3s ease;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.back{
+position: absolute;
+height: 80%;
+width: 80%;
+backface-visibility: hidden;
+background-color: aqua;
+color: brown;
+transform: rotateY(180deg);
+display: flex;
+align-items: center; 
+/* justify-content: center; */
+flex-direction: column;
+
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-top: 80px;
+
+}
+.para{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.midbox3{
+    background-image: url(https://www.hanumanttechnology.com/services_img/ser3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.midbox4{
+    background-image: url(https://www.hanumanttechnology.com/services_img/ser5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.midbox5{
+    background-image: url(https://www.hanumanttechnology.com/services_img/ser1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.midbox6{
+    background-image: url(https://www.hanumanttechnology.com/services_img/Data-Science-Course.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.mid1{
+    height: 500px;
+    width: 100%;
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 30px;
+}
+.mid1top{
+    background-color: blueviolet;
+    margin-left: 10px;
+    background-image: url(https://www.hanumanttechnology.com/services_img/ser4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mid1mid{
+    background-color: blue;
+    background-image: url(https://www.hanumanttechnology.com/services_img/data-analysis-course.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.mid1bottom{
+    background-color: aquamarine;
+    margin-right: 10px;
+    background-image: url(https://www.hanumanttechnology.com/services_img/Machine-learning-Program.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mid2{
+    height: 300px;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid2top{
+    height: 200px;
+    width: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.mid2topbottom{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 130px;
+    
+}
+.mid2topbottomtop{
+    height: 70px;
+    width: 200px;
+    background-color: red;
+    border: 1px solid black;
+}
+.mid2topbottom:hover .mid2topbottomtop{
+    display: block;
+    background-color: yellow;
+}
+.mid2topbottommid{
+    height: 70px;
+    width: 200px;
+    background-color: palegoldenrod;
+    border: 1px solid black;
+}
+.mid2topbottom:hover .mid2topbottommid{
+    display: block;
+    background-color: yellow;
+}
+.mid2topbottombottom{
+    height: 70px;
+    width: 200px;
+    background-color: palegreen;
+    border: 1px solid black;
+}
+.mid2topbottom:hover .mid2topbottombottom{
+    display: block;
+    background-color: yellow;
+}
+.mid2topbottomtop1{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    font-size: 20px;
+}
+.mid3{
+    height: 120vh;
+    width: 100%;
+    
+}
+.mid3top{
+    height: 90vh;
+    width: 93%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 10px;
+}
+.mid3top1{
+   background-color: brown;
+   
+}
+.mid3top12{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 10px  black;
+}
+.mid3top:hover .mid3top1{
+    background-color: darkblue;
+    
+     }
+.mid3top1:hover .mid3top12{
+    animation:mid3top12 2s linear 2 ;
+}
+@keyframes mid3top12{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.mid4{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    
+}
+.mid5{
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    grid-template-columns:repeat(5,auto);
+    gap: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 80px;
+   
+}
+.mid5top{
+    height: 80%;
+    width: 100%;
+   
+    
+}
+.mid5top:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.A{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/tcs.webp);
+    background-position: center;
+    background-size: cover;
+}
+.B{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/hcl.webp);
+    background-position: center;
+    background-size: cover;
+}
+.C{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/accanture.webp);
+    background-position: center;
+    background-size: cover;
+}
+.D{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/t_mahindra.webp);
+    background-position: center;
+    background-size: cover;
+}
+.E{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/wipro.webp);
+    background-position: center;
+    background-size: cover;
+}
+.F{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/infosys.webp);
+    background-position: center;
+    background-size: cover;
+}
+.G{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/ibm.webp);
+    background-position: center;
+    background-size: cover;
+}
+.H{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/oracle.webp);
+    background-position: center;
+    background-size: cover;
+}
+.I{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/mphasis.webp);
+    background-position: center;
+    background-size: cover;
+}
+.J{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/flipkart.webp);
+    background-position: center;
+    background-size: cover;
+}
+.K{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/microsoft.webp);
+    background-position: center;
+    background-size: cover;
+}
+.L{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/samsung.webp);
+    background-position: center;
+    background-size: cover;
+}
+.M{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/adobe.webp);
+    background-position: center;
+    background-size: cover;
+}
+.N{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/atos.webp);
+    background-position: center;
+    background-size: cover;
+}
+.O{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/hp.webp);
+    background-position: center;
+    background-size: cover;
+}
+.P{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/paytm.webp);
+    background-position: center;
+    background-size: cover;
+}
+.Q{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/uber.webp);
+    background-position: center;
+    background-size: cover;
+}
+.R{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/indiamart.webp);
+    background-position: center;
+    background-size: cover;
+}
+.S{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/pantaloons.webp);
+    background-position: center;
+    background-size: cover;
+}
+.T{
+    background-image: url(https://www.hanumanttechnology.com/placement_partner/byjus.webp);
+    background-position: center;
+    background-size: cover;
+}
+.mid6{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.mid6top{
+   height: 60px;
+   width: 250px;
+   font-size: 30px;
+   background-color: darkblue;
+   color: white;
+}
+.mid6top:hover{
+    background-color: black;
+}
+.mid7{
+    height: 100px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.mid8{
+    height: 120vh;
+    width: 80%;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+ .mid8top{
+   /* background-color: brown; */
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+  
+}
+.mid8top1{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/abhishek_saini.webp);
+}
+.mid8top2{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/abhishek_tiwari.webp);
+}
+.mid8top3{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/akriti.webp);
+}
+.mid8top4{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/nitika_pandey.webp);
+}
+.mid8top5{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/nida_ansari.webp);
+}
+.mid8top6{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/ankesh.webp);
+}
+.mid8top7{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/arshlan.webp);
+}
+.mid8top8{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/asha_sharma.webp);
+}
+.mid8top9{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/35.webp);
+}
+.mid8top10{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/4.webp);
+}
+.mid8top11{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/5.webp);
+}
+.mid8top12{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin-left: 70px;
+    background-image: url(https://www.hanumanttechnology.com/selected_students/6.webp);
+}
+.mid9{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+.mid9top{
+    height: 600px;
+    width: 50%;
+    background-color: aquamarine;
+    background-image: url(https://www.hanumanttechnology.com/services_img/Data-Science-Course.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mid9bottom{
+    height: 600px;
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mid9bottom1{
+    height: 50px;
+    width: 250px;
+    margin-left: 250px;
+    background-color: red;
+    color: white;
+}
+.mid9bottom1:hover{
+    background-color: black;
+}
+.mid10{
+    height: 300px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+}
+.mid10top{
+    background-color: #042244;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+   
+}
+.mid10top:hover{
+    transform: scale(1.1);
+}
+
+.mid10top1{
+    height: 100px;
+    width: 100px;
+    /* background-color: azure; */
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    color: yellow;
+}
+.mid11{
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(https://www.hanumanttechnology.com/images/module-bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+}
+.mid11top{
+    /* background-color: red; */
+    font-size: 50px;
+    padding-left: 80px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+.mid12{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.mid13{
+    height: 50vh;
+    width: 100%;
+    background-color: #042244;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+    position: relative;
+   
+}
+.mid13top{
+   /* background-color: blueviolet; */
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   margin: 50px;
+   
+}
+.mid13top1{
+   font-size: 20px;
+   color: white;
+
+}
+.mid14{
+    height: 50px;
+    width: 150px;
+    border-radius: 40%;
+    background-color: red;
+    position: absolute;
+    right: -20px;
+    top: 550px;
+    position: fixed;
+}
+
+
+
+
+
+
